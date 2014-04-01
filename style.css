@@ -1,3 +1,7 @@
 body {color: red}
 
+.example-inner-div{ color:gray }
 
+#header { height: 90px;
+          width: 100%;
+        }
