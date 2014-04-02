@@ -1,7 +1,12 @@
-body {color: red}
+body {
+    color: red
+}
 
-.example-inner-div{ color:gray }
+.example-inner-div {
+    color: gray
+}
 
-#header { height: 90px;
-          width: 100%;
-        }
+#header {
+    height: 90px;
+    width: 100%;
+}
