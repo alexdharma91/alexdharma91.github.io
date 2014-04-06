@@ -1,12 +1,31 @@
-body {
-    color: red
-}
-
-.example-inner-div {
-    color: gray
-}
-
-#header {
-    height: 90px;
-    width: 100%;
-}
+ .mainh1 { margin: 10px}
+ .info1 {text-align:center;
+       position: relative}
+	   
+ .mydiv{
+		width: 90%;
+		margin:0 auto;
+	   }
+	   
+ .mydiv1{
+    border: 1px inset black;
+	border-radius:6px; 
+    }
+ 
+ .inner_div{
+  border-radius:6px; 
+  border: 1px inset black;
+  position: relative;
+  width: 90%;
+ }
+ 
+ .example_form{
+   position: relative;
+   width: 90%;
+   margin:0 auto;
+ }
+	   
+.footer_div{
+            position: relative;
+			height:89px;
+           }  

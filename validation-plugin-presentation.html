@@ -1,34 +1,103 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>jQuery.validationForm</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="validation-plugin.js"></script>
-
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="bootstrap-3.1.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="bootstrap-3.1.1/css/bootstrap-theme.min.css">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+    <link href="bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="bootstrap-3.1.1/js/bootstrap.min.js"></script>
-
-</head>
-<body>
-
-
-<div class="container">
-    <div class="row">
-        <div class="span12">
-            <h1>Usage</h1>
-
-            Insert into head jquery and validationForm plugin
-            <div class="bs-callout bs-callout-info">
-                <h4>Alternate elements</h4>
-                <p>Feel free to use <code>&lt;b&gt;</code> and <code>&lt;i&gt;</code> in HTML5. <code>&lt;b&gt;</code> is meant to highlight words or phrases without conveying additional importance while <code>&lt;i&gt;</code> is mostly for voice, technical terms, etc.</p>
-            </div>
-        </div>
-    </div>
+	<script src="validation-plugin.js"></script>
+	
+	
+	
+  <div class="mainh1">
+	<h1>validation-plugin</h1>
+	</div>
+	
+ 
+ <div class="row mydiv">
+  <div class="col-md-6 mydiv1" >
+   <h1 class="info1">Features</h1>
+   
+    <ul><h3>Validation-plugin supports following types of validation:</h3>
+        <li><strong>Type</strong>
+           <ul>
+               <li>isInt</li>
+               <li>isFloat</li>
+           </ul>
+        </li>
+        <li><strong>Length</strong>
+           <ul>
+               <li>minLength</li>
+	           <li>maxLength</li>
+           </ul>
+        </li>
+        <li><strong>is</strong>
+           <ul>
+               <li>isEmail</li>
+	          <li>isUrl</li>  
+			  <li>isNotEmpty</li>
+           </ul>
+  
+        </li>
+    </ul>
+   
+   <div class="footer_div"></div>
+   
+  </div>
+  
+  
+  
+  <div class="col-md-6">
+  <div class="inner_div">
+   <h1 class="info1">DEMO</h1>
+   
+  <form role="form" class="example_form">
+   
+  <div class="form-group">
+    <label for="exampleInputEmail1">Example 1</label>
+    <input id="" data-validation="isInt" type="email" class="form-control necessarily" id="exampleInputEmail1" >
+  </div>
+  
+  <div class="form-group">
+    <label for="exampleInputEmail1">Example 2</label>
+    <input type="email" class="form-control necessarily" id="exampleInputEmail1" >
+  </div>
+  
+ <div class="form-group">
+    <label for="exampleInputEmail1">Example 3</label>
+    <input type="email" class="form-control necessarily" id="exampleInputEmail1" >
+  </div>
+  
+  <div class="form-group">
+    <label for="exampleInputEmail1">Example 4</label>
+    <input type="email" class="form-control necessarily" id="exampleInputEmail1" >
+  </div>
+  
+  <div class="form-group">
+    <label for="exampleInputEmail1">Example 5</label>
+    <input type="email" class="form-control necessarily" id="exampleInputEmail1" >
+  </div>
+  
+</form>
 
 </div>
-
-</body>
+   
+  </div>
+</div>
+ 
+	<div class="mainh1">
+	<h1>Usage</h1>
+	
+	
+	
+	
+	</div>
+	
+  </body>
 </html>
