@@ -57,33 +57,42 @@
   <div class="inner_div">
    <h1 class="info1">DEMO</h1>
    
-  <form role="form" class="example_form">
+  <form id="form_id" role="form" class="example_form">
    
   <div class="form-group">
     <label for="exampleInputEmail1">Example 1</label>
-    <input id="" data-validation="isInt" type="email" class="form-control necessarily" id="exampleInputEmail1" >
+    <input id="" data-validation="isInt" type="email" value="200" class="form-control necessarily" id="exampleInputEmail1" >
+	<footer>data-validation="isInt"</footer>
   </div>
   
   <div class="form-group">
     <label for="exampleInputEmail1">Example 2</label>
-    <input type="email" class="form-control necessarily" id="exampleInputEmail1" >
+    <input data-validation="isFloat" type="email" value="200.6" class="form-control necessarily" id="exampleInputEmail1" >
+	<footer>data-validation="isFloat"</footer>
   </div>
   
  <div class="form-group">
     <label for="exampleInputEmail1">Example 3</label>
-    <input type="email" class="form-control necessarily" id="exampleInputEmail1" >
+    <input data-validation="isEmail" type="email" value="validation-plugin@gmail.com" class="form-control necessarily" id="exampleInputEmail1" >
+	<footer>data-validation="isEmail"</footer>
   </div>
   
   <div class="form-group">
     <label for="exampleInputEmail1">Example 4</label>
-    <input type="email" class="form-control necessarily" id="exampleInputEmail1" >
+    <input data-validation="isUrl" type="email" value="www.google.ru" class="form-control necessarily" id="exampleInputEmail1" >
+	<footer>data-validation="isUrl"</footer>
   </div>
   
   <div class="form-group">
     <label for="exampleInputEmail1">Example 5</label>
-    <input type="email" class="form-control necessarily" id="exampleInputEmail1" >
+    <input data-validation="isNotEmpty" type="email" value="qwerty" class="form-control necessarily" id="exampleInputEmail1" >
+	<footer>data-validation="isNotEmpty"</footer>
   </div>
-  
+
+ <div class="form-group validate_btn">
+  <button type="button" class="btn btn-primary btn-lg  validate_btn" onclick="$('#form_id').validationForm()" >Validate</button>
+  </div>
+ 
 </form>
 
 </div>

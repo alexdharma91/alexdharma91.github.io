@@ -28,4 +28,12 @@
 .footer_div{
             position: relative;
 			height:89px;
-           }  
+           }
+
+.validate_btn{
+text-align:center
+}   
+
+.validation-error{
+border: 1px inset red;
+}
