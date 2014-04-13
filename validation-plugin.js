@@ -51,8 +51,8 @@
         isFloat: function (val) {
 
             if ($.isNumeric(val)) {
-                var regExpr1 = new RegExp('^[1-9]{1}[0-9]*.[0-9]+');
-                var regExpr2 = new RegExp('^[1-9]{1}[0-9]*,[0-9]+');
+                var regExpr1 = new RegExp('^[1-9]{1}[0-9]*[\.]{1}[0-9]+$');
+                var regExpr2 = new RegExp('^[1-9]{1}[0-9]*[\,][0-9]+$');
 
                 if (regExpr1.test(val)) {
                     return 1;
