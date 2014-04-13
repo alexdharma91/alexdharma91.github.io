@@ -25,7 +25,9 @@
         },
 
         isInt: function (val) {
-
+         
+		 var a = new Array();
+		 
             if ($.isNumeric(val)) {
                 var regExpr = new RegExp('^[1-9]{1}[0-9]*$');
 
@@ -74,7 +76,7 @@
         },
 
         isEmail: function (email) {
-            var regExpr = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            var regExpr = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z]{2,4})+$/;
             return regExpr.test(email);
             return true;
         },
